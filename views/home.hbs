@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {{>navbar}}
+    <section class="home">
+   <div class="degree">
+    <h1 class="upper">34 <sup>0</sup> </h1>
+    <h3 class="lower">30 <sup>0</sup> / 20 <sup>0</sup> </h3>
+   </div>
+   <div class="logo">
+      <h1><img height="35" src="/images/location.png" alt="">Bengaluru</h1>
+
+      <img height=200; src="/images/mbl.png" alt="">
+   </div>
+</section>
+ <section class="get_app">
+        <div class="banner1">
+            <h2>Weather Assistant</h2>
+            <h1>In Your Phone</h1>
+            <p>Find Out Rain and floods beckon as La Nina <br> looms and IOD deepens.</p>
+            <a href="./weather">
+                Check weather
+            </a>
+        </div>
+        <div>
+            <img src="/images/apps-2.jpg" alt="">
+        </div>
+        <div>
+            <img height="600" src="/images/app.jpg" alt="">
+        </div>
+    </section>
+{{>footer}}
+</body>
+</html>
